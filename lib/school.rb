@@ -1,4 +1,4 @@
-le# code here!# code here!
+# code here!# code here!
 require 'pry'
 class School
   attr_reader :name, :roster, :grades
