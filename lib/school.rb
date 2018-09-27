@@ -1,4 +1,4 @@
-# code here!# code here!
+le# code here!# code here!
 require 'pry'
 class School
   attr_reader :name, :roster, :grades
@@ -25,6 +25,6 @@ class School
 
   def sort
     @roster.sort_by { |grade, names_array| names_array.sort}
-binding.pry
+
   end
 end
