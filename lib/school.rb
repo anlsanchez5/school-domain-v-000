@@ -25,6 +25,6 @@ class School
 
   def sort
     @roster.sort_by { |grade, name_array| name_array.sort!}
-
+    @roster.to_h
   end
 end
